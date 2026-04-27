@@ -1,10 +1,47 @@
 p {
-  font-family: sans-serif;
-  color: rgb(159, 12, 68);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:rgb(44, 62, 80);
 }
 
 li {
-  background-color: rgb(42, 143, 206);
-  border: 1px solid rgba(120, 6, 6, 0.489);
-  margin-bottom: 5px;
+  background-color: white;
+  border-left: 5px solid rgb(133,142,186);
+  border-bottom:1px solid #ddd;
+  padding:10px;
+  margin-bottom: 8px;
+  list-style: none;
+}
+html {
+  font-size: 15px;
+  font-family:"Roboto", sans-serif;
+  background-color: #f0f4f8;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 3px 3px 1px black;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #98cadf;
+  padding: 0 20px 20px 20px;
+  border: 5px solid rgb(235, 152, 152);
 }
